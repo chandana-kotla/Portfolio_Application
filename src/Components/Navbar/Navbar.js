@@ -1,41 +1,33 @@
 import React from "react";
 import {Link } from "react-router-dom";
-import "./Navbar.css";
 
-const NavItems = ({children}) => {
+import "./Navbar.css"
+import Banner from "../Banner";
+
+const NavItems = () => {
   return (
-    <ul className="active">
-      <li>
-      <Link  to="/" exact={true.toString()} >{children}</Link>
-      </li>
-      <li>
-      <Link  to="/About" exact={true.toString()}>{children}</Link>
-      </li>
-      <li>
-      <Link  to="/" exact={true.toString()}>{children}</Link>
-      </li>
-      <li>
-      <Link  to="/Projects" exact={true.toString()}>{children}</Link>
-      </li>
-      <li>
-      <Link  to="/About" exact={true.toString()}>{children}</Link>
-      </li>
-      <li>
-      <Link  to="/Contact" exact={true.toString()}>{children}</Link>
-      </li>
-    </ul>
+   <div>
+      <Link  to="/" exact={true.toString()} >{"Home"}</Link>
+     
+      <Link  to="/About" exact={true.toString()}>{"About"}</Link>
+     
+      <Link  to="/" exact={true.toString()}>{"Skills"}</Link>
+     
+      <Link  to="/Projects" exact={true.toString()}>{"Projects"}</Link>
+      
+      
+      <Link  to="/Contact" exact={true.toString()}>{"Contact"}</Link>
+      </div>
   );
 };
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="nav">
-        <a href="/" className="site-title">
-          Chandana's Portfolio
-        </a>
+      <Banner style={{}}>
+        <Link to={'/'}> Chandana's Portfolio</Link>
         <NavItems />
-      </nav>
+        </Banner>
     </div>
   );
 };
