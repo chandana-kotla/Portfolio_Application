@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './Footer.css'
 const Footer = ({Description,Description1,links1}) => {
   return (    
@@ -11,9 +10,10 @@ const Footer = ({Description,Description1,links1}) => {
       <ul className="foot-second">
         {links1.map((link, index) => (
           <li key={index}>
-            <Link to={`/${link.toLowerCase()}`} className="foot-link">
-              {link}
-            </Link>
+            <a href={link.url} target='_blank' className="foot-link">
+            <img src={link.logo} alt={link.name} style={{width: '20px', marginRight: '5px'}}/>
+              {link.name}
+            </a>
           </li>
         ))}
       </ul>

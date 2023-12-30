@@ -1,8 +1,6 @@
    .footer {
     background-color: #d9d9d9;
-    height: 110px;
-  }
-  .footer {
+    height: 120px;
     display: flex;
     padding: 5px 123px;
     justify-content: space-evenly;
@@ -13,17 +11,21 @@
   .footer ul li a:hover{
     color: #18a9ec;
   }
-.foot-first{
-    font-size: 20px;
+.foot-first p{
+    margin: 0;
+    font-size: 20px;  
 }
 .foot-link{
+    margin-top: 0;
     text-decoration: none;
+    text-align: right;
     color: #150404;
-    font-size: 20px;
+    font-size: 22px;
   }
  .copy-right {
     text-align: center;
     font-size: 20px;
-    color: rgb(15, 14, 14);
-    padding: 12px 0;
+    color: rgb(10, 10, 10);
+    padding: 70px 0;
+   align-content: center;
   }

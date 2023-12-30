@@ -1,0 +1,26 @@
+.about-text {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+.about-text h1{
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+.about-text div {
+    width: 30%;
+    margin-top: 60px;
+    margin-left: -1000px;    
+}
+
+
+.image-top{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    top: 25px;
+    left: 1px;
+    bottom: -10px;
+   margin-right: 55px;
+}
