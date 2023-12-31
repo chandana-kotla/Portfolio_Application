@@ -1,8 +1,11 @@
-
+.Home{
+   max-height: 58%;
+}
 .Home-first {
     margin-top: 50px;
     font-size: 20px;
     margin-left: 50px;
+   
 }
 #namee{
     font-size: 35px;
@@ -18,9 +21,9 @@
     cursor: pointer;
    
 }
-.image-top {
+.image-top1 {
     width: 30%;
     position: relative;
     top: -220px;
-    left: 800px;
+    left: 900px;
   }

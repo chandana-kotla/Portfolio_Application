@@ -9,8 +9,9 @@ const Home = ({title,title1,title2,btnname,image}) => {
       <p>{title2}</p>
       <button className='btn'>{btnname}</button>
       </div>
-      <img src={image} alt='Image' className='image-top'/>
+      <img src={image} alt='Image' className='image-top1'/>
     </div>
+   
   )
 }
 

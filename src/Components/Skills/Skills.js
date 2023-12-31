@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Skills = () => {
+const Skills = ({heading}) => {
   return (
-    <div>
-      <h1>This is skills page</h1>
+    <div className=''>
+      <h1>{heading}</h1>
     </div>
   )
 }

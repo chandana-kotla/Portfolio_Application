@@ -1,0 +1,14 @@
+.Education{
+    height: 48%;
+    margin-left: 600px;
+    margin-top:-200px;
+}
+.image-top2{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    top: 65px;
+    bottom: 30px;
+    margin-left: 10px;
+    margin-right: 55px;
+}
