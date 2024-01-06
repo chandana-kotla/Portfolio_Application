@@ -1,10 +1,23 @@
 import React from 'react'
-
-const Skills = ({heading}) => {
+import './Skills.css'
+const Skills = ({skillsData,image4}) => {
   return (
-    <div className=''>
-      <h1>{heading}</h1>
-    </div>
+    <div>     
+    <div className="skills-container">
+            {skillsData.map((data, index) => (
+                <div key={index} className="skill-category">
+                    <h3>{data.category}:</h3>
+                    <ul>
+                        {data.skills.map((skill, i) => (
+                            <li key={i}>{skill}</li>
+                        ))}
+                    </ul>
+                </div>
+            ))}
+            
+        </div>
+        {/* <img src={image4} alt="Skills Icon" />    */}
+        </div>
   )
 }
 

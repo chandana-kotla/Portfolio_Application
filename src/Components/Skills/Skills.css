@@ -1,0 +1,26 @@
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.skill-category {
+   flex-direction: column-reverse;
+    margin-bottom: 10px; 
+    padding: 20px;
+    background-color: #d3d3d3;   
+}
+
+.icon-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+   
+}
+
+

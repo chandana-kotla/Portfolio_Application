@@ -1,5 +1,11 @@
 .Home{
    max-height: 58%;
+   
+}
+.Home h1{
+    align-items: center;
+    margin-left: 45%;
+    margin-bottom: 10px;
 }
 .Home-first {
     margin-top: 50px;

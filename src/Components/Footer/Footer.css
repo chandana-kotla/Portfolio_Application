@@ -1,31 +1,40 @@
    .footer {
-    background-color: #d9d9d9;
-    height: 120px;
+    background-color: #c3c2c2;
+    flex-direction: column;
     display: flex;
-    padding: 5px 123px;
     justify-content: space-evenly;
+    height: 180px;
+    margin: 0%;
   }
   .footer ul {
     list-style: none;
   }
   .footer ul li a:hover{
     color: #18a9ec;
+  } 
+  .foot-second{
+    margin-left: 20px;
+    font-size:22px ;
   }
 .foot-first p{
-    margin: 0;
-    font-size: 20px;  
+    margin-left: 15px;
+    font-size: 25px;  
 }
 .foot-link{
-    margin-top: 0;
     text-decoration: none;
-    text-align: right;
     color: #150404;
-    font-size: 22px;
+    font-size: 20px;
+    margin-left: 1100px; 
   }
  .copy-right {
+    width:100%;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(10, 10, 10);
-    padding: 70px 0;
-   align-content: center;
+    margin-top: 0%;
+    padding-bottom: 22px;
   }
+
+  
+  
+   

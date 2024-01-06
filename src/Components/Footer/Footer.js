@@ -5,9 +5,10 @@ const Footer = ({Description,Description1,links1}) => {
     <footer>
         <div className='footer'>
         <div className="foot-first">
-       <p>{Description}</p>
+       
        </div>
       <ul className="foot-second">
+        <p>{Description}</p>
         {links1.map((link, index) => (
           <li key={index}>
             <a href={link.url} target='_blank' className="foot-link">

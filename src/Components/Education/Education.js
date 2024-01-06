@@ -2,7 +2,7 @@ import React from 'react'
 import './Education.css'
 const Education = ({edu1,edu2,edu3,details1,details2,details3,image2}) => {
   return (
-    <div>
+    <div className='Education1'>
     <div>
       <img src={image2} alt='Image' className='image-top2'/>
       </div>
