@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
+import './Project.css';
 
-const Projects = () => {
+const Projects = ({projectsData}) => {
   return (
-    <div>
-      <h1>This is projects</h1>
+    <div className="projects-container">
+      <h2>PROJECTS</h2>
+      <div className="projects-grid">
+        {projectsData.map((data, index) => (
+          <div key={index} className="project-category">
+            <img src={data.icon} alt={data.name} className='center'/>
+            <h3>{data.name}</h3>
+            <p>{data.project}</p>
+            
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
 
-export default Projects
+export default Projects;
